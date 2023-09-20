@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <groupId>com.duke</groupId>
+    <artifactId>duke-security-mvc</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <name>duke-security-mvc</name>
+    <url>https://www.duke.com/</url>
+    <parent>
+        <groupId>com.duke</groupId>
+        <artifactId>duke-server</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modules>
+        <module>duke-security-mvc-common</module>
+        <module>duke-security-mvc-expression</module>
+        <module>duke-security-mvc-voter</module>
+    </modules>
+</project>
